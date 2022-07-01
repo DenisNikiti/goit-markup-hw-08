@@ -1,0 +1,63 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-primaty);
+
+
+
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.list {
+    list-style: none;
+
+
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav-item .link:hover,
+.nav-item .link:focus,
+.contacts-item .link:hover,
+.contacts-item .link:focus,
+.contacts-item-footer .link:hover,
+.contacts-item-footer .link:focus {
+    color: var(--color-blue);
+}
+
+
+.title {
+    margin: 0px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--color-secondary);
+}
+
+

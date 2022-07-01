@@ -1,0 +1,93 @@
+.curent-pages {
+
+    color: var(--color-blue);
+}
+
+.curent-pages::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-blue);
+    border-radius: 2px;
+    bottom: -1px;
+}
+
+.nav-item {
+    position: relative;
+
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header .logo {
+    margin-right: 93px;
+}
+
+.nav-list {
+    display: flex;
+
+
+}
+
+
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav-list {
+    color: var(--color-secondary);
+
+
+}
+
+.contacts-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts-item:not(:last-child) {
+    margin-right: 50px;
+
+}
+
+.nav-link,
+.contacts {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color var(--transition);
+}
+
+
+
+.icon-contacts {
+
+    margin-right: 10px;
+    fill: currentColor;
+
+}

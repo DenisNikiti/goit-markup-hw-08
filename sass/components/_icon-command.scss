@@ -1,0 +1,47 @@
+.icon-command {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    transition: fill var(--transition);
+
+
+
+
+}
+
+.social-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--transition);
+
+    &:hover,
+        &:focus {
+            background-color: var(--color-blue);
+    
+        }
+                &:hover .icon-command {
+                    fill: #ffffff;
+                }
+        
+                &:focus .icon-command {
+                    fill: #ffffff;
+                }
+
+}
+
+.social-links-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+
+
+
+.social-links {
+    display: flex;
+
+}
