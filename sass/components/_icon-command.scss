@@ -43,5 +43,15 @@
 
 .social-links {
     display: flex;
-
+    justify-content: center;
+    
 }
+
+
+
+@media screen and (max-width:767px) {
+    .comand-conteiner .social-links {
+        justify-content: center;
+        }
+
+    }
