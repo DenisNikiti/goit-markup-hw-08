@@ -58,8 +58,14 @@
 
 .textarea {
     resize: none;
+
+ width: 370px;
+
+    @media screen and (min-width:1200px) {
     width: 448px;
-    min-height: 138px;
+    }
+   
+    min-height: 120px;
     margin-top: 6px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;

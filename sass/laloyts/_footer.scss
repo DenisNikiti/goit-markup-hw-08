@@ -56,7 +56,10 @@
 
 
 .footer-item-2{
-    display: flex;
+    @media screen and (min-width:768px) {
+        display: flex;
+    }
+    
 }
 .footer-item{
     margin-bottom: 60px;
@@ -88,7 +91,11 @@
     color: var(--color-adress);
     margin-bottom: 20px;
 
-  text-align: center;
+
+    @media screen and (max-width:1199px) {
+        text-align: center;
+    }
+  
  
 
 
@@ -143,7 +150,7 @@
 
 .footer .button{
     margin-left: 12px;
-    @media screen and (max-width:1999px) {
+    @media screen and (max-width:1199px) {
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -152,11 +159,20 @@
 
 .footer-input {
     display: block;
-   width: 450px;
+   
    height: 50px;
+
+@media screen and (max-width:767px) {
+    width: 100%;
+}
+
+
 
    margin-bottom: 20px;
 
+   @media screen and (min-width:768px) {
+   width: 450px;
+   }
 
   @media screen and (min-width:1200px) {
     width: 358px;
