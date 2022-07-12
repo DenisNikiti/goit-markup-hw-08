@@ -163,11 +163,18 @@
     
 }
 
- @media screen and (max-width:1999px) {
-    .contacts-item:not(:last-child){
+ @media screen and (max-width:1199px) {
+    .contacts-item:last-child{
         margin-bottom: 10px;
     }
  }
+
+.contacts-item:last-child{
+    @media screen and (max-width: 767px) {
+        margin-bottom: 32px;
+    }
+}
+
 
 .contacts-item:not(:last-child){
     @media screen and (max-width: 767px) {
@@ -176,12 +183,20 @@
 }
 
 .phone{
-    @media screen and (max-width: 767px) {
+    
         font-weight: 500;
         font-size: 34px;
         line-height: 40px;
+        @media screen and (max-width: 767px) {
         color: var(--color-blue);
     }
+
+    @media screen and (min-width: 768px) {
+        font-size: 12px;
+            line-height: 14px;
+    }
+    
+    
 }
     
 .mail{

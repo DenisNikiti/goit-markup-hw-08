@@ -71,6 +71,12 @@
 
 }
 
+ @media screen and (max-width: 767px) {
+    &:not(:last-child){
+        margin-bottom: 30px;
+    }
+ }
+
 }
 
 .item-text:last-child {
