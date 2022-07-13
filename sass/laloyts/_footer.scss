@@ -56,6 +56,9 @@
 
 
 .footer-item-2{
+    @media screen and (max-width:767px) {
+        margin-bottom: 60px;
+    }
     @media screen and (min-width:768px) {
         display: flex;
         justify-content: space-around;
@@ -64,9 +67,7 @@
     
 }
 .footer-item{
-    @media screen and(max-width:767px) {
-        margin-bottom: 60px;
-    }
+
     &:last-child{
         @media screen and (min-width: 1200px) {
             margin-left: auto;
