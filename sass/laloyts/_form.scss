@@ -61,6 +61,10 @@
 
  width: 100%;
 
+    @media screen and (max-width: 767px) {
+        margin-bottom: 20px
+    }
+
     @media screen and (min-width:1200px) {
     width: 448px;
     }
@@ -81,7 +85,7 @@
 
 .link-modal {
     color: var(--color-blue);
-    margin-left: 6px;
+    
 
 }
 
