@@ -152,6 +152,16 @@
     margin-left: auto;
 }
 
+
+
+
+.mail{
+    @media screen and (max-width:767px) {
+        font-size: 15px;
+    }
+}
+
+
 .contacts-item mail{
     @media screen and (max-width:1199px) {
         margin-bottom: 10px;
@@ -167,17 +177,9 @@
 
 
 
- @media screen and (max-width:1199px) {
-    .contacts-item:last-child{
-        margin-bottom: 10px;
-    }
- }
 
-.contacts-item:last-child{
-    @media screen and (max-width: 767px) {
-        margin-bottom: 32px;
-    }
-}
+
+
 
 
 .contacts-item:not(:last-child){
